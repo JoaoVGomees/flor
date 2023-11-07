@@ -7,20 +7,27 @@ body {
     height: 100vh;
     margin: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: white;
-    font-size: 148px;
+    font-size: 4rem;
     text-align: center;
 }
 
 button {
-    background-color: rgb(196, 126, 35);
-    color: white;
+    font-weight: 600;
+    background-color: #8a2be2; 
+    color: #fff;
+    padding: 10px 18px; 
     border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-size: 24px;
-    cursor: pointer;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover{
+    background-color: #6a1b9a; 
+    box-shadow: 0 6px 6px rgba(255, 255, 255, 0.3);
 }
